@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "product": "dxgarden",
+  "published_at": "2026-09-16T23:46:47Z",
+  "plugin": {
+    "slug": "dxgarden-core",
+    "version": "1.1.3",
+    "requires": "7.0",
+    "requires_php": "8.3",
+    "tested": "7.1",
+    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v1.1.3",
+    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v1.1.3/dxgarden-core-1.1.3.zip",
+    "sha256": "4d2b361b3fa49a0775c358b4f446330dd3f4786f8dc341b34f3025311db89de6"
+  },
+  "theme": {
+    "slug": "dxgarden",
+    "version": "1.1.3",
+    "requires": "7.0",
+    "requires_php": "8.3",
+    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v1.1.3",
+    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v1.1.3/dxgarden-1.1.3.zip",
+    "sha256": "b53835e775d2f5b2b733e7c2c6ffd1c85207dfa54439793b58f6ed15a9d17f49"
+  }
+}
