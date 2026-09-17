@@ -5,9 +5,40 @@ Planungen stehen stattdessen in der [öffentlichen Roadmap](ROADMAP.md).
 
 ## Unreleased
 
-Für DxGarden 2.0.0 sind grundlegende WordPress-nahe Konsolidierungen geplant.
-Davon ist derzeit noch keine Produktänderung umgesetzt; der vorgesehene Umfang
-steht im öffentlichen Meilenstein.
+Noch keine Änderungen vorgemerkt.
+
+## 2.0.0 – 2026-09-18
+
+- Lektionen in die normalen WordPress-Beiträge integriert; vorhandene
+  Beitragseditoren, Medien, Revisionen, Status und direkte Artikel-URLs werden
+  dadurch ohne parallele DxGarden-Inhaltsverwaltung genutzt.
+- Unterthemen als hierarchische WordPress-Taxonomie umgesetzt. Vier
+  Themenebenen und höchstens fünf gemischte Kinder aus Themen und Lektionen pro
+  Elternpunkt werden zuverlässig geprüft.
+- Portale und das Linkmenü unten rechts in normale WordPress-Seiten verlagert.
+  Eine Seite kann unabhängig voneinander Portal, Linkmenüpunkt oder beides sein.
+- Sichere, wiederholbare Migration der bisherigen Garden-Elemente,
+  Portaleinstellungen, Redakteursbereiche und Tickets eingebaut. Vor der
+  Umwandlung entsteht eine vollständige technische Sicherung.
+- Autoren- und Redaktionsablauf in die vertrauten WordPress-Bereiche Beiträge,
+  Seiten, Benutzer, Design und Website-Zustand eingeordnet. Arbeitskopien
+  schützen veröffentlichte Texte fremder Autoren bis zu deren Zustimmung.
+- Kapitel automatisch aus H2-Überschriften erzeugt; Einleitung vor der ersten
+  H2 bleibt optional, H3 und kleinere Überschriften bleiben reiner Inhalt.
+- Medien-Ergänzungen als WordPress-Detailsblock mit stabilen Ankern und
+  Verknüpfung aus ausgewähltem Text oder kleinen Vorschaubildern umgesetzt.
+- Einstellungsfenster oben rechts angeordnet. Bedienmodus, Bewegung sowie der
+  neue Umschalter Farbraum/Individuell folgen der vereinbarten Darstellung.
+- Im Farbraum-Modus wird das vollständige Schema aus „Akzent und Ringe“
+  abgeleitet; im individuellen Modus bleiben alle Farben getrennt einstellbar.
+  Dieselbe Auswahl steht für die Administrationsstandards bereit.
+- Administrativen Reset ergänzt. Er setzt nur Darstellung, Physik und
+  Farbmodus auf den Installationsstandard zurück; Inhalte, Benutzer,
+  Zuordnungen und Besuchereinstellungen bleiben unberührt.
+- Öffentliche Oberfläche auf Desktop und Mobil geprüft und das untere
+  `||`-Menü auf kleinen Bildschirmen stabilisiert.
+- Installations-, Deaktivierungs-, Reaktivierungs-, Migrations- und
+  WordPress-Updateweg von 1.1.3 auf 2.0.0 automatisiert geprüft.
 
 ## 1.1.3 – 2026-09-17
 

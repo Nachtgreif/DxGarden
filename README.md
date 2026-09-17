@@ -12,7 +12,7 @@ Geprüfte Installationsdateien stehen unter **Releases** bereit. WordPress liest
 die aktuelle Version aus [`update.json`](update.json) und prüft jedes Paket vor
 der Installation anhand seiner veröffentlichten SHA-256-Prüfsumme.
 
-Aktuelle geprüfte Fassung: [DxGarden 1.1.3](https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v1.1.3)
+Aktuelle geprüfte Fassung: [DxGarden 2.0.0](https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.0.0)
 
 Die Versionsschritte 1.1.0 bis 1.1.2 sind unter **Releases** mit ihren
 ursprünglichen Angaben und Prüfsummen dokumentiert. Ihre veralteten
@@ -28,7 +28,7 @@ Update-Metadaten.
 - [Öffentliche Roadmap](ROADMAP.md) – Vorschläge und angenommene Änderungen
 - [Changelog](CHANGELOG.md) – bereits umgesetzte Produktänderungen
 - [Issues](https://github.com/Nachtgreif/DxGarden/issues) – Fehler melden oder eine Änderung vorschlagen
-- [Nächste Hauptversion 2.0.0](https://github.com/Nachtgreif/DxGarden/milestone/1) – WordPress-nahe Konsolidierung und öffentlich eingeplante Änderungen
+- [Meilensteine](https://github.com/Nachtgreif/DxGarden/milestones) – öffentlich eingeplante Änderungen künftiger Fassungen
 
 Vorschläge anderer Nutzer und direkte Projektentscheidungen werden auf
 derselben Roadmap geführt, bleiben aber über ihre Herkunft gekennzeichnet.
