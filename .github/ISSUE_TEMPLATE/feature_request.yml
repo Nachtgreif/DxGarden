@@ -2,7 +2,7 @@ name: Änderung vorschlagen
 description: Eine Idee oder Verbesserung für DxGarden einreichen
 title: "[Vorschlag] "
 labels:
-  - vorschlag
+  - enhancement
   - "status: pruefung"
   - "quelle: community"
 body:
