@@ -1,0 +1,59 @@
+name: Fehler melden
+description: Ein unerwartetes Verhalten von DxGarden melden
+title: "[Fehler] "
+labels:
+  - fehler
+  - "status: pruefung"
+  - "quelle: community"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Bitte veröffentliche hier keine Passwörter, Zugangsdaten oder vermuteten Sicherheitslücken.
+  - type: input
+    id: dxgarden_version
+    attributes:
+      label: DxGarden-Version
+      placeholder: z. B. 1.1.3
+    validations:
+      required: true
+  - type: input
+    id: wordpress_php
+    attributes:
+      label: WordPress- und PHP-Version
+      placeholder: z. B. WordPress 7.1, PHP 8.3
+    validations:
+      required: true
+  - type: input
+    id: umgebung
+    attributes:
+      label: Gerät und Browser
+      placeholder: z. B. Desktop, Firefox unter Linux
+    validations:
+      required: true
+  - type: textarea
+    id: schritte
+    attributes:
+      label: Schritte zum Nachstellen
+      description: Beschreibe möglichst genau, wie der Fehler ausgelöst wird.
+    validations:
+      required: true
+  - type: textarea
+    id: erwartet
+    attributes:
+      label: Erwartetes Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: tatsaechlich
+    attributes:
+      label: Tatsächliches Verhalten
+    validations:
+      required: true
+  - type: textarea
+    id: ergaenzung
+    attributes:
+      label: Bildschirmfotos oder weitere Angaben
+      description: Optional – bitte vorher persönliche Daten entfernen.
+    validations:
+      required: false

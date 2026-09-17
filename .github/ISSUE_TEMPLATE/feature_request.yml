@@ -1,0 +1,40 @@
+name: Änderung vorschlagen
+description: Eine Idee oder Verbesserung für DxGarden einreichen
+title: "[Vorschlag] "
+labels:
+  - vorschlag
+  - "status: pruefung"
+  - "quelle: community"
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Danke für den Vorschlag. Er wird zunächst öffentlich geprüft und erst nach einer ausdrücklichen Entscheidung in einen Versions-Meilenstein aufgenommen.
+  - type: textarea
+    id: ausgangslage
+    attributes:
+      label: Ausgangslage
+      description: Welches Problem oder welcher umständliche Ablauf besteht derzeit?
+    validations:
+      required: true
+  - type: textarea
+    id: vorschlag
+    attributes:
+      label: Gewünschte Änderung
+      description: Wie sollte DxGarden sich stattdessen verhalten?
+    validations:
+      required: true
+  - type: textarea
+    id: nutzen
+    attributes:
+      label: Nutzen
+      description: Wem hilft die Änderung und wodurch wird die Nutzung besser?
+    validations:
+      required: true
+  - type: textarea
+    id: ergaenzung
+    attributes:
+      label: Ergänzende Angaben
+      description: Optional – Beispiele, Bildschirmfotos, Alternativen oder weitere Zusammenhänge.
+    validations:
+      required: false

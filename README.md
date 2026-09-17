@@ -23,6 +23,17 @@ Dieses Repository enthält bewusst nicht den privaten Entwicklungsquellstand.
 Es dient ausschließlich der Verteilung geprüfter Fassungen und ihrer
 Update-Metadaten.
 
+## Entwicklung und Rückmeldungen
+
+- [Öffentliche Roadmap](ROADMAP.md) – Vorschläge und angenommene Änderungen
+- [Changelog](CHANGELOG.md) – bereits umgesetzte Produktänderungen
+- [Issues](https://github.com/Nachtgreif/DxGarden/issues) – Fehler melden oder eine Änderung vorschlagen
+- [Nächster Patch 1.1.4](https://github.com/Nachtgreif/DxGarden/milestone/1) – öffentlich eingeplante Änderungen
+
+Vorschläge anderer Nutzer und direkte Projektentscheidungen werden auf
+derselben Roadmap geführt, bleiben aber über ihre Herkunft gekennzeichnet.
+Details zum Ablauf stehen in den [Mitwirkungsregeln](CONTRIBUTING.md).
+
 ## Kompatibilität
 
 - WordPress 7.0 oder neuer
