@@ -5,7 +5,9 @@ Planungen stehen stattdessen in der [öffentlichen Roadmap](ROADMAP.md).
 
 ## Unreleased
 
-Derzeit sind noch keine Produktänderungen für den nächsten Patch umgesetzt.
+Für DxGarden 2.0.0 sind grundlegende WordPress-nahe Konsolidierungen geplant.
+Davon ist derzeit noch keine Produktänderung umgesetzt; der vorgesehene Umfang
+steht im öffentlichen Meilenstein.
 
 ## 1.1.3 – 2026-09-17
 

@@ -28,7 +28,7 @@ Update-Metadaten.
 - [Öffentliche Roadmap](ROADMAP.md) – Vorschläge und angenommene Änderungen
 - [Changelog](CHANGELOG.md) – bereits umgesetzte Produktänderungen
 - [Issues](https://github.com/Nachtgreif/DxGarden/issues) – Fehler melden oder eine Änderung vorschlagen
-- [Nächster Patch 1.1.4](https://github.com/Nachtgreif/DxGarden/milestone/1) – öffentlich eingeplante Änderungen
+- [Nächste Hauptversion 2.0.0](https://github.com/Nachtgreif/DxGarden/milestone/1) – WordPress-nahe Konsolidierung und öffentlich eingeplante Änderungen
 
 Vorschläge anderer Nutzer und direkte Projektentscheidungen werden auf
 derselben Roadmap geführt, bleiben aber über ihre Herkunft gekennzeichnet.
