@@ -14,6 +14,11 @@ der Installation anhand seiner veröffentlichten SHA-256-Prüfsumme.
 
 Aktuelle geprüfte Fassung: [DxGarden 1.1.3](https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v1.1.3)
 
+Die Versionsschritte 1.1.0 bis 1.1.2 sind unter **Releases** mit ihren
+ursprünglichen Angaben und Prüfsummen dokumentiert. Ihre veralteten
+Installationspakete werden nicht erneut angeboten; installierbare Dateien gibt
+es ausschließlich für die aktuelle Fassung.
+
 Dieses Repository enthält bewusst nicht den privaten Entwicklungsquellstand.
 Es dient ausschließlich der Verteilung geprüfter Fassungen und ihrer
 Update-Metadaten.
