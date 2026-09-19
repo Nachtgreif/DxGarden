@@ -26,7 +26,8 @@ technischen Erkenntnissen kann er begründet verschoben werden. Es werden keine
 Veröffentlichungstermine versprochen, solange sie nicht ausdrücklich genannt
 sind.
 
-DxGarden 2.0.0 hat die WordPress-nahe Konsolidierung abgeschlossen. Neue
+DxGarden 2.1.0 hat das WordPress-native Glossar ergänzt und den blockierenden
+Fehler bei der Zuordnung des ersten Themenknotens zum Zentrum behoben. Neue
 angenommene Änderungen werden erst wieder einem öffentlichen Meilenstein
 zugeordnet, wenn ihr Umfang feststeht.
 

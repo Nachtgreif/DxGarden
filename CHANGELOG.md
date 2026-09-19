@@ -7,6 +7,34 @@ Planungen stehen stattdessen in der [öffentlichen Roadmap](ROADMAP.md).
 
 Noch keine Änderungen vorgemerkt.
 
+## 2.1.0 – 2026-09-19
+
+- Blockierenden Fehler der WordPress-Elternauswahl behoben: Ein neues
+  Garden-Thema lässt sich zuverlässig direkt an das virtuelle Zentrum hängen,
+  wird intern mit Elternwert `0` gespeichert und erscheint sofort im ersten
+  Ring. Die Auswahl zeigt den Graph-Titel mit `(Zentrum)` statt `Keine`.
+- WordPress-natives Glossar ergänzt: Gutenberg-Inhalt, Autor, Revisionen,
+  kurze Mouseover-Erklärung, ausführlicher Inhalt, Aliasse, verwandte Begriffe,
+  Suche und Verknüpfung markierter Begriffe im Beitragseditor.
+- Glossar wahlweise im Portalring, im unteren Linkmenü, an beiden Stellen oder
+  in keinem Menü verfügbar. Das Portal verwendet ein festes Symbol eines
+  aufgeschlagenen Buches.
+- Desktop-, Tastatur- und Mobilbedienung für Glossarbegriffe umgesetzt:
+  Kurzdefinition bei Hover/Fokus beziehungsweise erster Berührung,
+  ausführlicher Inhalt im Garden-Fenster und normaler Link als Rückfallebene.
+- Den WordPress-Zitatblock um den Stil `Merksatz` ergänzt. Akzentbalken und
+  leicht hellere Fläche folgen den gewählten Theme-Farben; normale Zitate
+  bleiben unverändert.
+- Das untere Linkmenü erzeugt `||` ohne zusätzlichen Zwischenraum und ohne
+  Strich bei nur einem Link. Veraltete Portaldaten führen nicht mehr
+  unerwartet auf eine vollständige Browserseite.
+- Manuelle WordPress-Aktualisierungsprüfungen leeren nun auch den eigenen
+  Manifestcache; im normalen Betrieb bleibt der Sechs-Stunden-Cache erhalten.
+- Deutsche Verwaltungsbegriffe mit korrekten Umlauten versehen und eine
+  Warnung durch fremde Blockeditor-Kontexte beseitigt.
+- Vollständige Regression, Migration, Paketinstallation, Rückkehr auf 1.1.3
+  und erneutes Update auf 2.1.0 ohne Fehler geprüft.
+
 ## 2.0.0 – 2026-09-18
 
 - Lektionen in die normalen WordPress-Beiträge integriert; vorhandene
