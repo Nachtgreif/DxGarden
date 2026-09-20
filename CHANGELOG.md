@@ -7,6 +7,19 @@ Planungen stehen stattdessen in der [öffentlichen Roadmap](ROADMAP.md).
 
 Noch keine Änderungen vorgemerkt.
 
+## 2.2.1 – 2026-09-20
+
+- Das Glossarportal besitzt nun unabhängig von normalen Seiteneinstellungen
+  immer einen Größenregler.
+- Kapitelbeschriftungen bleiben oberhalb des unteren Linkmenüs.
+- Glossarhinweise funktionieren bei jedem erneuten Mouseover; der Fokus nach
+  dem Schließen eines Glossarfensters öffnet keinen Hinweis ungewollt erneut.
+- Ein Klick auf das Zentrum beendet auch den Lektionsfokus und lässt das
+  Zentrum wieder in den Graphen zurückkehren.
+- Medienfenster erzeugen keine zusätzlichen Verlaufsschritte mehr; das
+  Lektionsfenster schließt deshalb mit einem einzigen Klick und stellt keine
+  ältere Kapitelansicht wieder her.
+
 ## 2.2.0 – 2026-09-20
 
 - Einleitung und Kapitel erscheinen unmittelbar mit dem sichtbaren
