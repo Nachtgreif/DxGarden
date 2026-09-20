@@ -12,7 +12,7 @@ Geprüfte Installationsdateien stehen unter **Releases** bereit. WordPress liest
 die aktuelle Version aus [`update.json`](update.json) und prüft jedes Paket vor
 der Installation anhand seiner veröffentlichten SHA-256-Prüfsumme.
 
-Aktuelle geprüfte Fassung: [DxGarden 2.1.0](https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.1.0)
+Aktuelle geprüfte Fassung: [DxGarden 2.2.0](https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.2.0)
 
 Die Versionsschritte 1.1.0 bis 1.1.2 sind unter **Releases** mit ihren
 ursprünglichen Angaben und Prüfsummen dokumentiert. Ihre veralteten

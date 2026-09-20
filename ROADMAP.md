@@ -26,10 +26,9 @@ technischen Erkenntnissen kann er begründet verschoben werden. Es werden keine
 Veröffentlichungstermine versprochen, solange sie nicht ausdrücklich genannt
 sind.
 
-DxGarden 2.1.0 hat das WordPress-native Glossar ergänzt und den blockierenden
-Fehler bei der Zuordnung des ersten Themenknotens zum Zentrum behoben. Neue
-angenommene Änderungen werden erst wieder einem öffentlichen Meilenstein
-zugeordnet, wenn ihr Umfang feststeht.
+DxGarden 2.2.0 verbessert Kapitelanzeige, Fenster, Medien, Glossarbedienung,
+Editor und Schrift. Neue angenommene Änderungen werden erst wieder einem
+öffentlichen Meilenstein zugeordnet, wenn ihr Umfang feststeht.
 
 ## Bereits umgesetzt
 

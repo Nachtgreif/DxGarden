@@ -7,6 +7,36 @@ Planungen stehen stattdessen in der [öffentlichen Roadmap](ROADMAP.md).
 
 Noch keine Änderungen vorgemerkt.
 
+## 2.2.0 – 2026-09-20
+
+- Einleitung und Kapitel erscheinen unmittelbar mit dem sichtbaren
+  Lektionsknoten; ein geöffnetes Inhaltsfenster ist nicht mehr Voraussetzung.
+  Beim Einklappen verschwinden Kapitel rückwärts und danach die Knoten mit der
+  vereinbarten kurzen Verzögerung.
+- Glossar- und Zusatzfenster skalierbar gemacht. Normale WordPress-Seiten
+  erhalten dafür eine eigene Auswahl; das Einstellungsfenster bleibt fest.
+- Lektionsfenster weiter oben platziert und zuverlässig vom unteren Linkmenü
+  freigehalten.
+- Schließen eines Medienfensters vom Inhalt des Hauptfensters entkoppelt, damit
+  Kapitel und Scrollposition unverändert bleiben.
+- Medien wahlweise als Textlink oder kleines 96 × 72 Pixel großes
+  Vorschaubild verknüpft; das Originalmedium wird nicht dupliziert.
+- Drei Kapitelbedienelemente im Lektionskopf dauerhaft gleichmäßig angeordnet
+  und lange Titel auf den tatsächlich verfügbaren Raum begrenzt.
+- Glossar-Mouseover gegen hängenbleibende und verspätete Hinweise abgesichert;
+  Fokus, Touch, Scrollen, Escape und Inhaltswechsel teilen denselben
+  Aufräumweg.
+- Glossarbegriffe per Mehrfachaktion veröffentlichbar oder als Entwurf
+  speicherbar.
+- Doppelte native Garden-Themenauswahl aus Blockeditor und klassischem Editor
+  entfernt; die verständliche DxGarden-Zuordnung bleibt die einzige Eingabe.
+- Instrument Sans lokal einschließlich Lizenz ausgeliefert, in WordPress
+  registriert und als einheitliche Theme- und Graphschrift verwendet.
+- Das untere Linkmenü bewahrt zwei unmittelbar benachbarte Striche, wobei je
+  ein `|` zum angrenzenden Link gehört.
+- Vollständige Regression sowie frische Installation, Deaktivierung,
+  Reaktivierung, Rückkehr auf 1.1.3 und erneutes Update auf 2.2.0 geprüft.
+
 ## 2.1.0 – 2026-09-19
 
 - Blockierenden Fehler der WordPress-Elternauswahl behoben: Ein neues
