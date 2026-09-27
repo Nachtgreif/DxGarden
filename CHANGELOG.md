@@ -7,6 +7,66 @@ Planungen stehen stattdessen in der [öffentlichen Roadmap](ROADMAP.md).
 
 Noch keine Änderungen vorgemerkt.
 
+## 2.3.0 – 2026-09-28
+
+# DxGarden 2.3.0
+
+DxGarden 2.3.0 erweitert die bisherige WordPress-nahe Medienverwaltung um
+wiederverwendbare Zusatzinhalte. Außerdem vervollständigt die Version die
+bereits auf der geschützten PTU abgestimmten Farb- und Navigationskorrekturen.
+Plugin und Theme tragen dieselbe Version.
+
+## Änderungen
+
+- **WordPress-native Zusatzinhalte:** Unter `Medien → Zusatzinhalte` können
+  Autoren eigenständige Inhalte mit dem normalen Blockeditor erstellen. Ein
+  Zusatzinhalt kann Texte, Tabellen, Bilder, Videos und weitere
+  WordPress-Blöcke miteinander verbinden und besitzt Revisionen, Autor,
+  Veröffentlichungsstatus sowie ein geeignetes Fensterprofil.
+- **Einfache Einbindung in Beiträge:** Der Block `DxGarden-Zusatzinhalt`
+  verbindet einen Beitrag mit einem vorhandenen Zusatzinhalt. Als Auslöser
+  steht ein Textlink oder ein kleines Thumbnail zur Wahl. Entwürfe bleiben im
+  öffentlichen Garden verborgen.
+- **Vorschau aus dem tatsächlichen Inhalt:** Thumbnails werden standardmäßig
+  automatisch aus dem Zusatzinhalt erzeugt. Ein eigenes Beitragsbild bleibt
+  als freiwillige Alternative erhalten. Die Vorschau wird erst bei Bedarf
+  geladen und übernimmt die eingestellten Theme-Farben.
+- **Kontrollierte Vorschaugrößen:** Der Administrator legt Standard- und
+  Maximalbreite fest. Autoren können die Breite innerhalb dieser Grenze am
+  einzelnen Block wählen. Die Vorschau bleibt bewusst klein und verwendet ein
+  festes Seitenverhältnis.
+- **Geeignete Zusatzfenster:** Für kurze Erklärungen, gemischte Inhalte, breite
+  Tabellen und hohe Inhalte stehen passende Startgrößen zur Verfügung. Die
+  Fenster bleiben innerhalb sicherer Bildschirmgrenzen und lassen sich dort
+  weiter anpassen.
+- **Lesbare echte Tabellen:** WordPress-Tabellen erhalten im Hauptinhalt und
+  in Zusatzfenstern sichtbare Zelllinien, Kopfzeilen und eine horizontal
+  nutzbare Darstellung auf kleinen Bildschirmen.
+- **Vollständige Farbanpassung:** Die gewählte Hauptfarbe wird einheitlich auf
+  Fensterrahmen, Links, Größen-Griffe und weitere Oberflächenelemente
+  angewendet. Vorbereitete Bilddateien bleiben erwartungsgemäß unverändert.
+- **Sicherer Kapitelabstand:** Die Kapitelliste misst die tatsächliche
+  Oberkante des unteren Linkmenüs. Bei knappem Platz werden Lektionenknoten und
+  Kapitel gemeinsam verschoben, sodass auch eine variable Zahl von Kapiteln
+  das Menü nicht überdeckt.
+
+## Daten und Kompatibilität
+
+- Die neue Zusatzinhalt-Art wird durch das Plugin registriert; eine manuelle
+  Datenmigration ist nicht erforderlich.
+- Bestehende Beiträge, Seiten, Themen, Glossarbegriffe und Einstellungen
+  bleiben erhalten.
+- WordPress 7.0 oder neuer und PHP 8.3 oder neuer bleiben Voraussetzung.
+- Plugin und Theme müssen gemeinsam auf 2.3.0 aktualisiert werden.
+
+## Prüfung
+
+Die lokale Prüfkette umfasst zusätzlich die Registrierung, Bearbeitung,
+Veröffentlichung und REST-Ausgabe der Zusatzinhalte, die Blockeinbindung,
+Größenbegrenzungen und automatischen Vorschauen. Die endgültige
+Paketinstallation auf der geschützten PTU wurde erfolgreich durchgeführt;
+Plugin, Theme, Datenbank und Trennung von der Produktivseite wurden bestätigt.
+
 ## 2.2.1 – 2026-09-20
 
 - Das Glossarportal besitzt nun unabhängig von normalen Seiteneinstellungen
