@@ -9,8 +9,6 @@ Noch keine Änderungen vorgemerkt.
 
 ## 2.3.0 – 2026-09-28
 
-# DxGarden 2.3.0
-
 DxGarden 2.3.0 erweitert die bisherige WordPress-nahe Medienverwaltung um
 wiederverwendbare Zusatzinhalte. Außerdem vervollständigt die Version die
 bereits auf der geschützten PTU abgestimmten Farb- und Navigationskorrekturen.

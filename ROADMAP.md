@@ -26,9 +26,11 @@ technischen Erkenntnissen kann er begründet verschoben werden. Es werden keine
 Veröffentlichungstermine versprochen, solange sie nicht ausdrücklich genannt
 sind.
 
-DxGarden 2.2.0 verbessert Kapitelanzeige, Fenster, Medien, Glossarbedienung,
-Editor und Schrift. Neue angenommene Änderungen werden erst wieder einem
-öffentlichen Meilenstein zugeordnet, wenn ihr Umfang feststeht.
+DxGarden 2.3.0 erweitert die WordPress-nahe Medienverwaltung um
+wiederverwendbare Zusatzinhalte und automatische Vorschauen. Außerdem sind
+die Farb- und Navigationskorrekturen der vorherigen Versionen vollständig
+enthalten. Neue angenommene Änderungen werden erst wieder einem öffentlichen
+Meilenstein zugeordnet, wenn ihr Umfang feststeht.
 
 ## Bereits umgesetzt
 
