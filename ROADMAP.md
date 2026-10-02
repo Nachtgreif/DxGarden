@@ -29,8 +29,15 @@ sind.
 DxGarden 2.3.0 erweitert die WordPress-nahe Medienverwaltung um
 wiederverwendbare Zusatzinhalte und automatische Vorschauen. Außerdem sind
 die Farb- und Navigationskorrekturen der vorherigen Versionen vollständig
-enthalten. Neue angenommene Änderungen werden erst wieder einem öffentlichen
-Meilenstein zugeordnet, wenn ihr Umfang feststeht.
+enthalten.
+
+Für DxGarden 2.4.0 ist als erste Änderung eine kontrollierte Erstellung und
+themefähige Darstellung von SVG-Grafiken vorgesehen. Ein optionaler Generator
+soll geprüfte SVG-Dateien als normale WordPress-Medien erzeugen. DxGarden Core
+stellt ausschließlich diese verwalteten Dateien mit den aktuellen
+Garden-Farbrollen dar. Allgemeine SVG-Uploads und beliebiger ausführbarer Code
+bleiben ausgeschlossen. Verbindlicher Umfang und Abnahmekriterien stehen im
+[angenommenen Issue #27](https://github.com/Nachtgreif/DxGarden/issues/27).
 
 ## Bereits umgesetzt
 
