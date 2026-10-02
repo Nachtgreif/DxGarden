@@ -32,11 +32,13 @@ die Farb- und Navigationskorrekturen der vorherigen Versionen vollständig
 enthalten.
 
 Für DxGarden 2.4.0 ist als erste Änderung eine kontrollierte Erstellung und
-themefähige Darstellung von SVG-Grafiken vorgesehen. Ein optionaler Generator
-soll geprüfte SVG-Dateien als normale WordPress-Medien erzeugen. DxGarden Core
-stellt ausschließlich diese verwalteten Dateien mit den aktuellen
-Garden-Farbrollen dar. Allgemeine SVG-Uploads und beliebiger ausführbarer Code
-bleiben ausgeschlossen. Verbindlicher Umfang und Abnahmekriterien stehen im
+themefähige Darstellung von SVG-Grafiken vorgesehen. Die optionale
+**DxGarden Medienwerkstatt** soll in ihrer ersten Version ausschließlich
+geprüfte SVG-Dateien als normale WordPress-Medien erzeugen. DxGarden Core
+stellt nur diese verwalteten Dateien mit den aktuellen Garden-Farbrollen dar.
+Weitere Medienwerkzeuge sind für dieses Update nicht zugesagt. Allgemeine
+SVG-Uploads und beliebiger ausführbarer Code bleiben ausgeschlossen.
+Verbindlicher Umfang und Abnahmekriterien stehen im
 [angenommenen Issue #27](https://github.com/Nachtgreif/DxGarden/issues/27).
 
 ## Bereits umgesetzt
