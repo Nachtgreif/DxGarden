@@ -1,24 +1,34 @@
 {
   "schema_version": 1,
   "product": "dxgarden",
-  "published_at": "2026-09-27T22:40:29Z",
+  "published_at": "2026-10-08T20:11:14Z",
   "plugin": {
     "slug": "dxgarden-core",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "requires": "7.0",
     "requires_php": "8.3",
     "tested": "7.1",
-    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.3.0",
-    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v2.3.0/dxgarden-core-2.3.0.zip",
-    "sha256": "6f8af76a9715c048da318958c85b7f5fb1bc06c3f15483c548e79ce8152c09be"
+    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.4.0",
+    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v2.4.0/dxgarden-core-2.4.0.zip",
+    "sha256": "db327da126924c4a217d8a148294a6513f0f7105037b9957259665b08cfaf61e"
+  },
+  "media_workshop": {
+    "slug": "dxgarden-media-workshop",
+    "version": "2.4.0",
+    "requires": "7.0",
+    "requires_php": "8.3",
+    "tested": "7.1",
+    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.4.0",
+    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v2.4.0/dxgarden-media-workshop-2.4.0.zip",
+    "sha256": "6c4e704da23fd7b5de86828a441e18d23d653216f2c39dc89d54ad3bc9971cdb"
   },
   "theme": {
     "slug": "dxgarden",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "requires": "7.0",
     "requires_php": "8.3",
-    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.3.0",
-    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v2.3.0/dxgarden-2.3.0.zip",
-    "sha256": "3357994b27528ec338698ccce710a781d59a740c0538650aca2ceba4a1215501"
+    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.4.0",
+    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v2.4.0/dxgarden-2.4.0.zip",
+    "sha256": "168ba1bb8337d156397a599e5099c7f479fe769a153043b7cdc949b434a15ee9"
   }
 }

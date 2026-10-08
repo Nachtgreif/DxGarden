@@ -7,6 +7,41 @@ Planungen stehen stattdessen in der [öffentlichen Roadmap](ROADMAP.md).
 
 Noch keine Änderungen vorgemerkt.
 
+## 2.4.0 – 2026-10-08
+
+DxGarden 2.4.0 ergänzt die bestehende Medienverwaltung um die optionale
+**DxGarden Medienwerkstatt**. Sie erzeugt aus einer streng begrenzten und
+serverseitig geprüften SVG-Untermenge normale WordPress-Medien, die innerhalb
+des Gardens automatisch den aktuellen Themefarben folgen.
+
+## Neu
+
+- `Medien → SVG-Werkstatt` mit Codeeingabe, Metadaten, sicherer Vorschau und
+  kontrollierter Erzeugung
+- feste Farbrollen für Akzent, Knoten, Fläche, Verbindung und Text
+- Verwendung im normalen WordPress-Bildblock und in DxGarden-Zusatzinhalten
+- dauerhafte themefähige Darstellung durch DxGarden Core, auch wenn die
+  Medienwerkstatt später deaktiviert wird
+- Zugänglichkeitsangaben für informative SVG sowie eine ausdrückliche
+  dekorative Variante
+- Integritätsprüfung über Medien-ID, sicheren Dateipfad, Schemaversion und
+  SHA-256-Wert
+- Diagnose für beschädigte oder inkompatible verwaltete SVG
+
+## Sicherheitsgrenze
+
+Allgemeine SVG-Uploads bleiben gesperrt. Skripte, Ereignisattribute, externe
+Referenzen, eingebettete Bilder, freies CSS, freie Farben, Animationen,
+Filter und Verläufe werden nicht akzeptiert. Ohne kompatibles Theme oder bei
+einer fehlgeschlagenen Integritätsprüfung bleibt die normale Bilddarstellung
+mit einer eingebauten Ersatzpalette erhalten.
+
+Bestehende HTML/CSS-Zusatzinhalte, Rasterbilder, Beiträge, Medien und
+Einstellungen bleiben unverändert. Eine Datenmigration ist nicht notwendig.
+
+Core, Medienwerkstatt und Theme tragen gemeinsam Version 2.4.0. Voraussetzung
+bleiben WordPress 7.0 oder neuer und PHP 8.3 oder neuer.
+
 ## 2.3.0 – 2026-09-28
 
 DxGarden 2.3.0 erweitert die bisherige WordPress-nahe Medienverwaltung um
