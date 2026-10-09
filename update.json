@@ -1,34 +1,34 @@
 {
   "schema_version": 1,
   "product": "dxgarden",
-  "published_at": "2026-10-08T20:11:14Z",
+  "published_at": "2026-10-09T17:42:19Z",
   "plugin": {
     "slug": "dxgarden-core",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "requires": "7.0",
     "requires_php": "8.3",
     "tested": "7.1",
-    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.4.0",
-    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v2.4.0/dxgarden-core-2.4.0.zip",
-    "sha256": "db327da126924c4a217d8a148294a6513f0f7105037b9957259665b08cfaf61e"
+    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.4.1",
+    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v2.4.1/dxgarden-core-2.4.1.zip",
+    "sha256": "aed69ecaebece6959ef6e830c56481e191b06ac4a5e634ca4073802450fff368"
   },
   "media_workshop": {
     "slug": "dxgarden-media-workshop",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "requires": "7.0",
     "requires_php": "8.3",
     "tested": "7.1",
-    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.4.0",
-    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v2.4.0/dxgarden-media-workshop-2.4.0.zip",
-    "sha256": "6c4e704da23fd7b5de86828a441e18d23d653216f2c39dc89d54ad3bc9971cdb"
+    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.4.1",
+    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v2.4.1/dxgarden-media-workshop-2.4.1.zip",
+    "sha256": "052df1ce5233186373c6cdc5eb590b7fd4c09ffee55383f0586b866c7a355c19"
   },
   "theme": {
     "slug": "dxgarden",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "requires": "7.0",
     "requires_php": "8.3",
-    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.4.0",
-    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v2.4.0/dxgarden-2.4.0.zip",
-    "sha256": "168ba1bb8337d156397a599e5099c7f479fe769a153043b7cdc949b434a15ee9"
+    "url": "https://github.com/Nachtgreif/DxGarden/releases/tag/dxgarden-v2.4.1",
+    "package": "https://github.com/Nachtgreif/DxGarden/releases/download/dxgarden-v2.4.1/dxgarden-2.4.1.zip",
+    "sha256": "909f150de571023056a733f5f8f496cede258b724c44cf137c5c7ddbea7737b3"
   }
 }

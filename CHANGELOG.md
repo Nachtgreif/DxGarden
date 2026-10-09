@@ -7,6 +7,21 @@ Planungen stehen stattdessen in der [öffentlichen Roadmap](ROADMAP.md).
 
 Noch keine Änderungen vorgemerkt.
 
+## 2.4.1 – 2026-10-09
+
+DxGarden 2.4.1 korrigiert zwei Fehler im Autorenablauf von DxGarden 2.4.0.
+
+## Korrekturen
+
+- **Geschützte Entwurfsvorschau:** Ein berechtigter Autor kann einen noch nicht veröffentlichten Garden-Beitrag wieder vollständig innerhalb des Gardens prüfen. Der Entwurf bleibt an der öffentlichen Lektionsschnittstelle weiterhin gesperrt und wird weder öffentlich freigegeben noch im Browser-Sitzungsspeicher hinterlegt.
+- **Fensterprofil von Zusatzinhalten:** Die Einstellung `Breit` wird beim Speichern im Blockeditor dauerhaft übernommen und fällt nicht mehr auf `Standard` zurück.
+
+## Prüfung und Kompatibilität
+
+Beide Fehlerwege wurden automatisiert und direkt in der geschützten PTU geprüft. Die vollständige Regression einschließlich Paketinstallation und Aktualisierungsweg ist Bestandteil des Release-Kandidaten.
+
+Bestehende Beiträge, Zusatzinhalte, Medien und Einstellungen bleiben erhalten. Eine Datenmigration ist nicht notwendig. Core, Medienwerkstatt und Theme tragen gemeinsam Version 2.4.1. Voraussetzung bleiben WordPress 7.0 oder neuer und PHP 8.3 oder neuer.
+
 ## 2.4.0 – 2026-10-08
 
 DxGarden 2.4.0 ergänzt die bestehende Medienverwaltung um die optionale
