@@ -7,6 +7,18 @@ Planungen stehen stattdessen in der [öffentlichen Roadmap](ROADMAP.md).
 
 Noch keine Änderungen vorgemerkt.
 
+## 2.4.2 – 2026-10-10
+
+## Behoben
+
+- Die Vorschau eines noch unveröffentlichten, bereits in den Garden eingeordneten Beitrags öffnet sich nun auch aus dem aktuellen WordPress-Blockeditor im Garden.
+- Der vom Blockeditor selbst erzeugte Entwurfslink erhält die geschützte DxGarden-Vorschaukennung, ohne den Entwurf öffentlich freizugeben.
+
+## Geprüft
+
+- Der tatsächliche Blockeditor-Link, die geschützte Garden-Darstellung und die Zugriffstrennung wurden in der PTU geprüft.
+- Die vollständige WordPress-, Paket-, Update- und Rückkehrregression wurde erfolgreich ausgeführt.
+
 ## 2.4.1 – 2026-10-09
 
 DxGarden 2.4.1 korrigiert zwei Fehler im Autorenablauf von DxGarden 2.4.0.
