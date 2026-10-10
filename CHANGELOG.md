@@ -7,6 +7,23 @@ Planungen stehen stattdessen in der [öffentlichen Roadmap](ROADMAP.md).
 
 Noch keine Änderungen vorgemerkt.
 
+## 2.4.3 – 2026-10-10
+
+DxGarden 2.4.3 vervollständigt die Darstellung der in Garden-Lektionen und Zusatzfenstern freigegebenen WordPress-Blöcke.
+
+## Korrekturen
+
+- **WordPress-Blockgrundlagen:** Garden-Ansichten laden die WordPress-Blockbibliothek nun ausdrücklich vor dem DxGarden-Stylesheet. Das gilt auch für Inhalte, die erst nach dem Seitenaufbau über die REST-Schnittstelle eingesetzt werden.
+- **Allgemeine Blockdarstellung:** Das Theme gestaltet innerhalb von Lektionen und Zusatzfenstern alle dort freigegebenen Blocktypen kontrolliert und einheitlich. Dazu gehören unter anderem Listen, Bilder, Galerien, Zitate, Tabellen, Code, Details, Gruppen, Spalten, Medien/Text, Schaltflächen, Audio, Video und Dateien.
+- **Ausrichtung und Abstände:** WordPress-Einstellungen für obere, mittlere und untere Spaltenausrichtung werden zuverlässig umgesetzt. Verschachtelte Anfangs- und Endabstände sowie responsive Medien werden normalisiert.
+- **Schmale Fenster:** Normale Spalten und dafür vorgesehene Medien/Text-Blöcke werden auf schmalen Ansichten gestapelt. Die WordPress-Option gegen mobiles Stapeln bleibt erhalten.
+
+## Prüfung und Kompatibilität
+
+Die tatsächliche Stylesheet-Reihenfolge wurde im erzeugten HTML geprüft. Desktop- und Mobilmessungen bestätigten die Ausrichtung und responsive Stapelung. Zusätzlich liefen die vollständige WordPress-Regression, Updaterprüfung sowie Installation, Deaktivierung, Rückkehr und erneute Aktualisierung der endgültigen Pakete ohne Fehler durch.
+
+Bestehende Beiträge, Zusatzinhalte, Medien und Einstellungen werden nicht verändert. Eine Datenmigration ist nicht erforderlich. Core, Medienwerkstatt und Theme tragen gemeinsam Version 2.4.3. Voraussetzung bleiben WordPress 7.0 oder neuer und PHP 8.3 oder neuer.
+
 ## 2.4.2 – 2026-10-10
 
 ## Behoben
